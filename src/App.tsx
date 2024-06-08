@@ -52,6 +52,7 @@ function App() {
   return (
     <>
       <button onClick={() => getData()}>Get Data</button>
+      <h1>add h1</h1>
 
       {products?.map((product) => {
         return (
