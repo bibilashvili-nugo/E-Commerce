@@ -1,0 +1,40 @@
+.speaker-section {
+  margin-bottom: 300px;
+}
+
+.speaker-section-container {
+  background-color: #d87d4a;
+  min-height: 560px;
+  padding: 60px 40px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background: url("../../assets/"); */
+  position: relative;
+  overflow: hidden;
+}
+
+.speaker-section .content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+}
+
+.speaker-img {
+  position: absolute;
+  bottom: -20px;
+  left: 100px;
+  max-width: 410px;
+  z-index: 2;
+}
+
+.circle-img {
+  position: absolute;
+  max-width: 944px;
+  left: -150px;
+  bottom: -300px;
+  /* transform: translate(calc(-50% - 200px), calc(-50% - 100px)); */
+  z-index: 1;
+}

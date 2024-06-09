@@ -31,12 +31,13 @@ img {
   max-width: 100%;
 }
 
+img {
+  /* max-width: 200px; */
+  max-width: 100%;
+}
+
 .container {
   width: 90%;
   margin: auto;
   max-width: 1110px;
-}
-
-img {
-  max-width: 200px;
 }
