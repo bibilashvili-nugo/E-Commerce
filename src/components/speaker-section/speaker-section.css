@@ -20,6 +20,8 @@
   flex-direction: column;
   gap: 10px;
   max-width: 350px;
+  z-index: 3;
+  position: relative;
 }
 
 .speaker-img {

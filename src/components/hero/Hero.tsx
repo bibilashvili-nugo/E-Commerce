@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./hero.css";
 // import HeroImg from "../../assets/home/desktop/image-hero.jpg";
 
@@ -12,7 +13,7 @@ const Hero = () => {
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
-          <a href="#">See Product</a>
+          <Link to="/products/headphones/4">See Product</Link>
         </div>
         {/* <div className="hero-right">
           <img src={HeroImg} alt="" />
