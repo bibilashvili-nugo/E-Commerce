@@ -3,6 +3,7 @@
   padding: 0 24px;
   color: white;
   height: calc(100vh - 86px);
+  min-height: 700px;
 }
 
 .hero-container {
@@ -22,6 +23,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: flex-start;
 }
 
 .hero-left h1 {

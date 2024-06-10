@@ -1,7 +1,8 @@
 import "./speaker-section.css";
 import SpeakerImg from "../../assets/home/desktop/image-speaker-zx9.png";
 import CircleImg from "../../assets/home/desktop/pattern-circles.svg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import Button from "../ui/button/Button";
 
 const SpeakerSection = () => {
   return (
@@ -15,7 +16,10 @@ const SpeakerSection = () => {
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
-          <Link to="/products/headphones/6">See Product</Link>
+          {/* <Link to="/products/headphones/6">See Product</Link> */}
+          <Button to="/products/headphones/6" type="dark" isLink={true}>
+            See Product
+          </Button>
         </div>
       </div>
     </section>

@@ -1,0 +1,53 @@
+.btn {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 15px 31.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  /* width: 200px; */
+  /* align-self: flex-start; */
+  font-size: 13px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+}
+
+.btn-primary:hover {
+  background-color: #fbaf85;
+}
+
+.btn-secondary {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+}
+
+.btn-secondary:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-dark {
+  background-color: black;
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: #4c4c4c;
+}
+
+.btn-link {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.5);
+  gap: 15px;
+}
+
+.btn-link:hover {
+  color: var(--color-primary);
+}
