@@ -41,3 +41,46 @@ img {
   margin: auto;
   max-width: 1110px;
 }
+
+.ReactModal__Overlay {
+  background-color: hsla(0, 0%, 0%, 0.4) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-modal {
+  /* inset: none; */
+  width: 540px;
+  max-width: 100%;
+  height: 700px;
+  max-height: 100%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 48px;
+}
+
+.card-modal {
+  position: absolute;
+  top: 130px;
+  right: 0%;
+  margin-right: 5%;
+
+  width: 400px;
+  max-width: 100%;
+
+  background-color: white;
+
+  border-radius: 8px;
+  padding: 31px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1200px) {
+  .card-modal {
+    margin-right: calc((100vw - 1110px) / 2);
+  }
+}
