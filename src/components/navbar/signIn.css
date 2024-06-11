@@ -1,0 +1,27 @@
+.btn-sign {
+  border: none;
+  border-radius: 2px;
+  padding: 10px 15px;
+  font-size: bolder;
+  font-size: 13px;
+}
+
+.log-in {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.log-in:hover {
+  background-color: #fbaf85;
+  cursor: pointer;
+}
+
+.sign-up {
+  background-color: white;
+}
+
+.sign-up:hover {
+  background-color: #4c4c4c;
+  cursor: pointer;
+  color: white;
+}
